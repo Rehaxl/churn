@@ -36,11 +36,9 @@ Customers with month-to-month contracts have the highest churn rate.
 Senior citizens and customers with no internet service show higher churn.
 
 Longer contract duration is strongly linked with lower churn probability.
+![EDA: Churn by Contract Type](churnstock/churnbycontracttype.png)  
 
-![EDA Visuls](churnstock\churnbycontracttype.png)
-
-![Churn Model Visualization](churnstock\seniorcitizen.png)
-
+![EDA: Senior Citizens Churn](churnstock/seniorcitizen.png)  
 
 🤖 Model Training
 
@@ -65,9 +63,9 @@ Classification Report:
    macro avg     1.0000    1.0000    1.0000      1409
 weighted avg     1.0000    1.0000    1.0000      1409
 
-![Churn Model Visualization](churnstock\logregscoreconfusionmatrix.png)
+![Logistic Regression Confusion Matrix](churnstock/logregscoreconfusionmatrix.png)  
 
-![Churn Model Visualization](churnstock\logroccurve.png)
+![ROC Curve](churnstock/logroccurve.png) 
 
 
 🧪 Model Testing
@@ -128,7 +126,7 @@ CustomerID  Predicted_Churn  Churn_Probability
 EDA Plot log regression
 
 
-![Churn Model Visualization](churnstock\edalogistic.png)
+![EDA Logistic Regression](churnstock/edalogistic.png)
 
 
 
@@ -153,4 +151,4 @@ Build an interactive dashboard (Streamlit / Power BI).
 Enhance feature engineering with external datasets.
 
 # dataset
-[Local Dataset File](churnstock\Telco_customer_churn.xlsx)
+[Download Dataset](churnstock/Telco_customer_churn.xlsx)
